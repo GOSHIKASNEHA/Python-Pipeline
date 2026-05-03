@@ -37,4 +37,4 @@ if __name__ == "__main__":
 
 
 print("Lab 3 Git modification")
-print("This is wrong commit")
+print("Corrected commit")
