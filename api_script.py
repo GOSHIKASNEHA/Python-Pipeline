@@ -8,13 +8,12 @@ try:
     if response.status_code == 200:
         data = response.json()
 
-        with open("api_output.txt", "w") as file:
-            file.write(str(data))
-
-        print("API call successful! Data saved.")
+        print("GitHub API Info")
+        print("User URL:", data["current_user_url"])
+        print("Repositories URL:", data["repository_url"])
 
     else:
         print("Failed with status code:", response.status_code)
 
 except Exception as e:
-    print("Error occurred:", e)
+    print("Error:", e)
