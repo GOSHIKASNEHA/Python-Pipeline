@@ -34,3 +34,6 @@ if __name__ == "__main__":
         print("Result:", divide(x, y))
     else:
         print("Invalid choice")
+
+
+print("Lab 3 Git modification")
